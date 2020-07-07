@@ -24,13 +24,12 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fonts/material-design-iconic-font/css/material-design-iconic-font.css",
               "src/assets/css/style.scss",
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/jquery-3.3.1.min.js",
-              "src/assets/js/jquery.steps.js",
-              "src/assets/js/main.js"
+              "src/assets/js/jquery-3.3.1.min.js"
             ]
           },
           "configurations": {
