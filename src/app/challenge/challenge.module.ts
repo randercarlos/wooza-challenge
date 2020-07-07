@@ -1,3 +1,4 @@
+import { ChallengeRoutingModule } from './challenge-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PlatformsComponent } from './platforms/platforms.component';
@@ -7,9 +8,14 @@ import { PersonalDataComponent } from './personal-data/personal-data.component';
 
 
 @NgModule({
-  declarations: [PlatformsComponent, PlansComponent, PersonalDataComponent],
+  declarations: [
+    PlatformsComponent,
+    PlansComponent,
+    PersonalDataComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    ChallengeRoutingModule
   ]
 })
 export class ChallengeModule { }

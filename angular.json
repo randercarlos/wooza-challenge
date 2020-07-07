@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "wooza-challenge": {
@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/style.scss",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.3.1.min.js",
+              "src/assets/js/jquery.steps.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
