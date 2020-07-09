@@ -1,0 +1,22 @@
+ <!-- SECTION 2 -->
+ <h4></h4>
+ <section>
+   <div class="grid">
+    <div class="row">
+      <h2>Plataformas</h2>
+    </div>
+    <div class="row">
+      <a href="javascript:;" class="grid-item" *ngFor="let platform of this.platforms | async"
+        (click)="selectPlatform(platform)">
+        <div class="inner">
+          <img src="assets/img/{{ platform.sku }}.png" alt="{{ platform.nome }}">
+          <span>{{ platform.nome }}</span>
+          <span class="description" style="white-space: pre-line">{{ platform.descricao | lineBreak }}</span>
+        </div>
+      </a>
+    </div>
+    <div class="row tip">
+      <p>Clique para selecionar uma plataforma.</p>
+    </div>
+   </div>
+ </section>

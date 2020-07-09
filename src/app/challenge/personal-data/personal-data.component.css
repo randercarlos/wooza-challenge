@@ -1,0 +1,28 @@
+.form-header .form-group {
+  width: 100%;
+}
+
+span.error {
+  display: block;
+  color: crimson;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+
+.buttons {
+  justify-content: space-between;
+}
+
+.buttons {
+  justify-content: space-between;
+}
+
+finish.button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+finish.button {
+  background: orange;
+}

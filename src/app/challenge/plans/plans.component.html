@@ -1,0 +1,24 @@
+<!-- SECTION 2 -->
+  <h4></h4>
+  <section>
+  <div class="grid">
+    <div class="row">
+      <h2>Planos para {{ this.selectedPlatform.nome }}</h2>
+    </div>
+    <div class="row">
+      <a href="javascript:;" class="grid-item" *ngFor="let plan of this.plans | async"
+      (click)="selectPlan(plan)">
+        <div class="inner">
+          <span>Franquia: {{ plan.franquia }}</span>
+          <span>R$ {{ plan.valor }}</span>
+        </div>
+      </a>
+    </div>
+    <div class="row tip">
+      <p>Clique para selecionar um plano.</p>
+    </div>
+    <div class="row">
+      <a href="#" class="back" routerLink="/plataformas">Voltar</a>
+    </div>
+  </div>
+  </section>

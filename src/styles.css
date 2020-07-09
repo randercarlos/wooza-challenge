@@ -1,1 +1,32 @@
+
 /* You can add global styles to this file, and also import other style files */
+#wizard {
+  padding-top: 20px;
+}
+
+.ng-bar-placeholder {
+  height: 4px !important;
+}
+
+.grid .row a.back, .grid .row button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6c2ec;
+  border: none;
+  height: 40px;
+  width: 140px;
+  background: #aac1f0;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 23px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.grid .row a.back:before {
+  content: '\2190';
+  margin-right: 5px;
+}
