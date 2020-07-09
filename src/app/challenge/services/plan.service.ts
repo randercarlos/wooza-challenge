@@ -20,7 +20,6 @@ export class PlanService {
       .pipe(
         map(data => data['planos']),
         map(data => data.filter(item => item.ativo)),
-        tap(data => console.log('Planos Ativos por Plataforma: ', data)),
       );
   }
 
@@ -30,5 +29,9 @@ export class PlanService {
 
   public getSelectPlan(): Plan {
     return JSON.parse(sessionStorage.getItem('@WoozaChallenge/plan'));
+  }
+
+  public clearSelectPlan(): void {
+    sessionStorage.removeItem('@WoozaChallenge/plan');
   }
 }

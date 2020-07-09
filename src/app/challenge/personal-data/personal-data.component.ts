@@ -24,6 +24,11 @@ export class PersonalDataComponent implements OnInit {
     private planService: PlanService) { }
 
   ngOnInit(): void {
+    // if (!this.planService.getSelectPlan()) {
+    //   alert('Não há plano selecionado!');
+    //   this.router.navigateByUrl('/plataformas')
+    // }
+
     this.createForm();
   }
 
@@ -38,17 +43,32 @@ export class PersonalDataComponent implements OnInit {
   }
 
   public finish(): void {
+    this.messageService.add({severity:'success', summary:'Sucesso!', detail:'Dados salvos com sucesso!'});
+
     const selectedPlatform = this.platformService.getSelectPlatform();
     const selectedPlan = this.planService.getSelectPlan();
     const data = this.personalDataForm.value;
-    this.personalDataForm.reset();
 
+    this.clearData();
 
-    this.messageService.add({severity:'success', summary:'Sucesso!', detail:'Dados salvos com sucesso!'});
     console.log('Plataforma selecionada: ', selectedPlatform.nome);
     console.log('Plano selecionado: ', `Franquia: ${selectedPlan.franquia}, Valor: ${selectedPlan.valor}`);
     console.log('Dados: ', `Nome: ${data.name}, Email: ${data.email}, Nascimento: ${data.birth}, `
       + `CPF: ${data.cpf}, Phone: ${data.phone}`);
+  }
+
+  private clearData(): void {
+    this.platformService.clearSelectPlatform();
+    this.planService.clearSelectPlan();
+
+    this.personalDataForm.reset({});
+    this.personalDataForm.patchValue({
+      name: null,
+      email: null,
+      birth: null,
+      cpf: null,
+      phone: null
+    });
   }
 
 }

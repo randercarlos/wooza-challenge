@@ -20,12 +20,16 @@ export class PlansComponent implements OnInit {
 
   ngOnInit(): void {
     this.selectedPlatform = this.platformService.getSelectPlatform();
+    if (!this.selectedPlatform) {
+      alert('Não há plataforma selecionada!');
+      this.router.navigateByUrl('/plataformas')
+    }
+
     this.plans = this.planService.getPlansByPlatformId(this.selectedPlatform.sku);
   }
 
   selectPlan(plan: Plan): void {
     this.planService.setSelectPlan(plan);
-    console.log(plan);
     this.router.navigateByUrl('/dados-pessoais');
   }
 

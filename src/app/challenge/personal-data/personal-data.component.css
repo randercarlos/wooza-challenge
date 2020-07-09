@@ -18,11 +18,11 @@ span.error {
   justify-content: space-between;
 }
 
-finish.button:disabled {
+.buttons button.finish:disabled {
   background-color: gray;
   cursor: not-allowed;
 }
 
-finish.button {
+.buttons button.finish {
   background: orange;
 }

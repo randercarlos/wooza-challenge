@@ -2,6 +2,8 @@
 /* You can add global styles to this file, and also import other style files */
 #wizard {
   padding-top: 20px;
+  height: unset;
+  padding-bottom: 60px;
 }
 
 .ng-bar-placeholder {

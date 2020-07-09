@@ -21,7 +21,6 @@ export class PlatformsComponent implements OnInit {
 
   selectPlatform(platform: Platform): void {
     this.platformService.setSelectPlatform(platform);
-    console.log(platform.sku);
     this.router.navigateByUrl('/planos');
   }
 

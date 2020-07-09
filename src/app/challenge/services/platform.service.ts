@@ -17,8 +17,7 @@ export class PlatformService {
   public getPlatforms(): Observable<Platform[]> {
     return this.http.get<Platform[]>(this.apiUrl)
       .pipe(
-        map(data => data['plataformas']),
-        tap(data => console.log('DATA: ', data)),
+        map(data => data['plataformas'])
       );
   }
 
@@ -28,5 +27,9 @@ export class PlatformService {
 
   public getSelectPlatform(): Platform {
     return JSON.parse(sessionStorage.getItem('@WoozaChallenge/platform'));
+  }
+
+  public clearSelectPlatform(): void {
+    sessionStorage.removeItem('@WoozaChallenge/platform');
   }
 }
