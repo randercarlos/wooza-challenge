@@ -11,6 +11,7 @@
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
@@ -25,12 +26,15 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Angular 9](https://nodejs.org/en/)
+- [Angular 9](https://angular.io/)
 
 ## 💻 Projeto
 
 Wooza Challenge é um sistema feito como teste técnico para o processo seletivo de programador frontend pleno da 
-Wooza(https://www.wooza.com.br/). 
+Wooza(https://www.wooza.com.br/).
+---
+
+## 💻 Funcionalidades
 
 O sistema possui 3 telas. Na 1º, o usuário seleciona a plataforma entre PC, Tablet e Wifi. Na 2º tela, o usuário seleciona
 os planos de acordo com a plataforma escolhida na 1º tela. E na 3º e última tela, o usuário informa os dados para finalizar
