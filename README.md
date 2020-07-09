@@ -11,9 +11,8 @@
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -26,17 +25,12 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Angular 9](https://angular.io/)
+- [Angular 9](https://nodejs.org/en/)
 
 ## 💻 Projeto
-Wooza Challenge é um sistema feito como teste técnico para o processo seletivo de programador frontend pleno da 
-Wooza(https://www.wooza.com.br/).
----
 
-## 💻 Funcionalidades
-O sistema possui 3 telas. Na 1º, o usuário seleciona a plataforma entre PC, Tablet e Wifi. Na 2º tela, o usuário seleciona
-os planos de acordo com a plataforma escolhida na 1º tela. E na 3º e última tela, o usuário informa os dados para finalizar
-o processo.
+Wooza Challenge é um sistema feito como teste técnico para o processo seletivo de programador frontend pleno da 
+Wooza(https://www.wooza.com.br/). 
 ---
 
 ## 📄 Requisitos
@@ -79,6 +73,5 @@ Espere compilar o projeto.
 
 - Se tudo der certo, o terminal exibirá uma mensagem que o projeto estará rodando no [http://localhost:4200](http://localhost:4200) e automaticamente o Webpack abrirá uma aba no navegador com o sistema rodando.
 ---
-
 
 Desenvolvido por Rander Carlos :wave: [Linkedin!](https://www.linkedin.com/in/rander-carlos-caetano-freitas-308a63a8/)
