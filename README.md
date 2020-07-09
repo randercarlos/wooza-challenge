@@ -11,7 +11,7 @@
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
@@ -27,23 +27,23 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Angular 9](https://nodejs.org/en/)
-_________
+
 
 ## 💻 Projeto
 
 Wooza Challenge é um sistema feito como teste técnico para o processo seletivo de programador frontend pleno da 
 Wooza(https://www.wooza.com.br/).
-_________
+
 
 ## 💻 Funcionalidades
 
 O sistema possui 3 telas permitindo escolher a plataforma, o plano e informando os seus dados por último.
-_________
+
 
 ## 📄 Requisitos
 
 * Node 12+ com npm 8+
-_________
+
 
 ## ⚙️ Instalação e execução
 
@@ -78,7 +78,8 @@ ng serve --open
 
 Espere compilar o projeto!
 
-- Se tudo der certo, o terminal exibirá uma mensagem que o projeto estará rodando no [http://localhost:4200](http://localhost:4200) e automaticamente o Webpack abrirá uma aba no navegador com o sistema rodando.
+- Se tudo der certo, o terminal exibirá uma mensagem que o projeto estará rodando no [http://localhost:4200](http://localhost:4200) e automaticamente abrirá uma aba no navegador com o sistema rodando.
+
 
 
 Desenvolvido por Rander Carlos :wave: [Linkedin!](https://www.linkedin.com/in/rander-carlos-caetano-freitas-308a63a8/)
