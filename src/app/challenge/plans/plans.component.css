@@ -1,0 +1,31 @@
+
+.grid-item {
+  background-image: unset;
+  border: 1px solid seagreen;
+  margin-right: 18px;
+}
+
+.grid-item span {
+  color: black;
+  font-size: 14px;
+}
+
+.grid-item span.value {
+  font-size: 10px;
+}
+
+.tip {
+  justify-content: center;
+}
+
+.grid .row h2 {
+  font-size: 30px;
+}
+.grid .tip span {
+  font-size: 7px;
+  color: slategray;
+  text-align: center;
+}
+
+
+

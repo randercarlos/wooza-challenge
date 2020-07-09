@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
 
   ngOnInit() {
-    this.loadScript('assets/js/jquery.steps.js');
-    this.loadScript('assets/js/main.js');
+    // this.loadScript('assets/js/jquery.steps.js');
+    // this.loadScript('assets/js/main.js');
   }
 
   public loadScript(url: string) {

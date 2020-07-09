@@ -1,4 +1,30 @@
 .grid-item {
   height: 268px;
   background-size: unset;
+  border: 1px solid dodgerblue;
+  background-image: none;
 }
+
+.grid-item span {
+  color: black;
+  font-size: 14px;
+}
+
+.grid-item span.description {
+  font-size: 10px;
+}
+
+.tip {
+  justify-content: center;
+}
+
+.grid .row h2 {
+  font-size: 30px;
+}
+.grid .tip span {
+  font-size: 7px;
+  color: slategray;
+  text-align: center;
+}
+
+

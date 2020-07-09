@@ -1,27 +1,37 @@
-# WoozaChallenge
+<h4 align="center">
+  🚀 Wooza Challenge - Teste técnico
+</h4>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
 
-## Development server
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-## Code scaffolding
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center">
+  <img alt="BeTheHero" src=".github/bethehero.png" width="100%">
+</p>
 
-## Build
+## :rocket: Tecnologias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 💻 Projeto
 
-## Running end-to-end tests
+O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+---
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Desenvolvido por Rander Carlos :wave: [Linkedin!](https://www.linkedin.com/in/rander-carlos-caetano-freitas-308a63a8/)

@@ -1,7 +1,7 @@
 export interface PersonalData {
-  name: string;
+  nome: string;
   email: string;
-  birth: Date;
+  nascimento: Date;
   cpf: string;
-  phone: string;
+  telefone: string;
 }

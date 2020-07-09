@@ -1,1 +1,80 @@
-<p>personal-data works!</p>
+<p-toast position="top-center"></p-toast>
+
+<h4></h4>
+<section>
+  <div class="grid">
+    <div class="row">
+      <h2>Informe seus dados!</h2>
+    </div>
+
+    <form [formGroup]="personalDataForm" (ngSubmit)="finish();">
+
+      <div class="form-holder">
+        <input type="text" placeholder="Nome" class="form-control" id="name" name="name" maxlength="60"
+          formControlName="name" required >
+
+        <span class="error"
+          *ngIf="this.personalDataForm.get('name').errors?.required && this.personalDataForm.get('name').touched">Nome é obrigatório!</span>
+        <span class="error"
+          *ngIf="this.personalDataForm.get('name').errors?.minlength
+            && this.personalDataForm.get('name').touched">Tamanho mínimo é 3 caracteres!</span>
+      </div>
+
+      <div class="form-holder">
+        <input type="email" placeholder="Email" class="form-control" id="email" name="email" maxlength="60"
+          formControlName="email" required email>
+
+        <span class="error"
+          *ngIf="this.personalDataForm.get('email').errors?.required && this.personalDataForm.get('email').touched">Email é obrigatório!</span>
+        <span class="error"
+          *ngIf="this.personalDataForm.get('email').errors?.minlength
+            && this.personalDataForm.get('email').touched">Tamanho mínimo é 5 caracteres!</span>
+        <span class="error"
+          *ngIf="this.personalDataForm.get('email').errors?.email
+            && this.personalDataForm.get('email').touched">Informe um email válido!</span>
+      </div>
+
+      <div class="form-holder">
+        <input type="text" placeholder="Nascimento" class="form-control" id="birth" name="birth" formControlName="birth"
+         required pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])/(0[1-9]|1[012])/19[0-9]{2}|20[0-2]{2}" [dropSpecialCharacters]="false"
+         mask="00/00/0000"
+         [clearIfNotMatch]="true" [showMaskTyped]="true">
+
+        <span class="error"
+          *ngIf="this.personalDataForm.get('birth').errors?.required && this.personalDataForm.get('birth').touched">Nascimento é obrigatório!</span>
+        <span class="error"
+          *ngIf="this.personalDataForm.get('birth').errors?.pattern && this.personalDataForm.get('birth').touched">Informe uma data válida!</span>
+      </div>
+
+      <div class="form-holder">
+        <input type="text" placeholder="CPF" class="form-control" id="cpf" name="cpf" [showMaskTyped]="true" [dropSpecialCharacters]="false"
+          maxlength="60" formControlName="cpf" required mask="000.000.000-00" [clearIfNotMatch]="true">
+
+        <span class="error"
+          *ngIf="this.personalDataForm.get('cpf').errors?.required && this.personalDataForm.get('cpf').touched">CPF é obrigatório!</span>
+        <span class="error"
+          *ngIf="this.personalDataForm.get('cpf').errors?.minlength
+            && this.personalDataForm.get('cpf').touched">Informe um CPF válido!</span>
+      </div>
+
+      <div class="form-holder">
+        <input  type="text" placeholder="Telefone" class="form-control" id="phone" name="phone" [clearIfNotMatch]="true"
+          maxlength="30" formControlName="phone" required mask="(00) 00000-0000" [showMaskTyped]="true" [dropSpecialCharacters]="false">
+
+        <span class="error"
+          *ngIf="this.personalDataForm.get('phone').errors?.required && this.personalDataForm.get('phone').touched">Telefone é obrigatório!</span>
+        <span class="error"
+          *ngIf="this.personalDataForm.get('phone').errors?.minlength
+            && this.personalDataForm.get('phone').touched">Informe um telefone válido!</span>
+      </div>
+
+      <div class="row buttons">
+        <a href="#" class="back" routerLink="/planos">Voltar</a>
+        <button type="submit" class="finish" [disabled]="this.personalDataForm.invalid"
+          [title]="this.personalDataForm.invalid ? 'Preencha todos os campos para habilitar esse botão' : 'Clique para finalizar o cadastro!'">Finalizar</button>
+      </div>
+
+    </form>
+
+  </div>
+</section>

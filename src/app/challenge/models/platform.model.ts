@@ -1,5 +1,5 @@
 export interface Platform {
   sku: string;
-  name: string;
-  description: string;
+  nome: string;
+  descricao: string;
 }

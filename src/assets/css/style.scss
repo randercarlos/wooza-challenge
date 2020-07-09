@@ -167,22 +167,7 @@ body {
 }
 .form-holder {
 	position: relative;
-	padding-left: 26px;
 	margin-bottom: 25px;
-	&:before {
-		content: "";
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		left: 0px;
-		width: 10px;
-		height: 10px;
-		border: 2px solid #f6c2ec;
-		border-radius: 50%;
-		-webkit-box-sizing: border-box;
-	   	-moz-box-sizing: border-box;
-        box-sizing: border-box;
-	}
 	&.active {
 		&:before {
 			background: #f6c2ec;
