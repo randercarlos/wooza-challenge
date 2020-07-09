@@ -11,27 +11,72 @@
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="BeTheHero" src=".github/bethehero.png" width="100%">
+  <img alt="Wooza Challenge" src="wooza-challenge.png" width="100%">
 </p>
 
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+- [Angular 9](https://nodejs.org/en/)
 
 ## 💻 Projeto
 
-O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda.
+Wooza Challenge é um sistema feito como teste técnico para o processo seletivo de programador frontend pleno da 
+Wooza(https://www.wooza.com.br/). 
 
+O sistema possui 3 telas. Na 1º, o usuário seleciona a plataforma entre PC, Tablet e Wifi. Na 2º tela, o usuário seleciona
+os planos de acordo com a plataforma escolhida na 1º tela. E na 3º e última tela, o usuário informa os dados para finalizar
+o processo.
 ---
+
+## 📄 Requisitos
+
+* Node 12+ com npm 8+
+---
+
+## ⚙️ Instalação e execução
+
+**Windows, OS X & Linux:**
+
+Baixe o arquivo zip e o descompacte ou baixe o projeto para sua máquina através do git clone [https://github.com/randercarlos/wooza-challenge.git](https://github.com/randercarlos/wooza-challenge.git)
+
+
+- Entre no prompt de comando e vá até a pasta do projeto:
+
+```sh
+cd ir-ate-a-pasta-do-projeto
+```
+
+- Instale as dependências do Angular através do comando:
+
+```sh
+npm install
+```
+
+ou se estiver usando o Yarn: 
+
+```sh
+yarn
+```
+
+- Com as dependências instaladas, execute o comando:
+
+```sh
+ng serve --open
+```
+
+Espere compilar o projeto.
+
+- Se tudo der certo, o terminal exibirá uma mensagem que o projeto estará rodando no [http://localhost:4200](http://localhost:4200) e automaticamente o Webpack abrirá uma aba no navegador com o sistema rodando.
+---
+
 
 Desenvolvido por Rander Carlos :wave: [Linkedin!](https://www.linkedin.com/in/rander-carlos-caetano-freitas-308a63a8/)
